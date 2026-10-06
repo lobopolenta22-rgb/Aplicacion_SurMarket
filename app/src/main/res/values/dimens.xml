@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="FRGTitleTextSize">24sp</dimen>
+    <dimen name="FRGLabelTextSize">16sp</dimen>
+    <dimen name="FRGContainerPadding">24dp</dimen>
+    <dimen name="FRGEditTextSize">16sp</dimen>
+    <dimen name="FRGTextView2TextSize">14sp</dimen>
+    <dimen name="FRGButtonTextSize">16sp</dimen>
+</resources>
