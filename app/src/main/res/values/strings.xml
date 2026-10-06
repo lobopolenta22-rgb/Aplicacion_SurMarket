@@ -8,4 +8,8 @@
     <string name="FRGLogin_TXVRecoverPassword">Recuperar contraseña</string>
     <string name="FRGLogin_BTNLogin">Iniciar sesion</string>
     <string name="FRGLogin_BTNRegister">Regístrate aquí</string>
+    <string name="loginWelcome">Bienvenido a SurMarket</string>
+    <string name="loginError">Usuario o contraseña incorrectos</string>
+    <string name="userEmpty">Ingrese su nombre de usuario</string>
+    <string name="passwordEmpty">Ingrese su contraseña</string>
 </resources>
