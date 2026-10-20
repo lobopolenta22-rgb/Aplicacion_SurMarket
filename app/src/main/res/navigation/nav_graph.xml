@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-             xmlns:app="http://schemas.android.com/apk/res-auto"
-             android:id="@+id/nav_graph.xml">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/LoginFragment"
+    >
+    <fragment
+        android:id="@+id/LoginFragment"
+        android:name="bo.edu.uajms.cristianalejandro.surmarket.FragmentLogin"
+        android:label="@string/labelLoginFragment"
+        tools:layout="@layout/fragment_login"
+        >
+        <action
+            android:id="@+id/action_login_to_products_list"
+            app:destination="@+id/productsListFragment"
+            />
 
+    </fragment>
 </navigation>
