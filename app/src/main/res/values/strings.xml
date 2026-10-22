@@ -13,4 +13,8 @@
     <string name="userEmpty">Ingrese su nombre de usuario</string>
     <string name="passwordEmpty">Ingrese su contraseña</string>
     <string name="labelLoginFragment">Login</string>
+    <string name="FRGProductsList_Title">Tienda Virtual SurMarket</string>
+    <string name="Shopping_Cart">Carrito de Compras</string>
+    <string name="search">Buscar producto</string>
+    <string name="FRGProductsList_BTNAddProduct">Añadir Producto</string>
 </resources>

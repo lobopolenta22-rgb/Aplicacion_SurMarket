@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FragmentProductsList"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/TitleHeight"
+        android:elevation="2dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingHorizontal="16dp">
+
+        <TextView
+            android:id="@+id/TXV_FRGProductsList_Title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/FRGProductsList_Title"
+            android:textSize="@dimen/FRGTitleTextSize"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/IMV_FRGProductsList_ShoppingCart"
+            android:layout_width="@dimen/ImagenViewIconSize"
+            android:layout_height="@dimen/ImagenViewIconSize"
+            android:clickable="true"
+            android:contentDescription="@string/Shopping_Cart"
+            android:focusable="true"
+            android:padding="@dimen/ImagenViewIcon_padding"
+            android:src="@drawable/ic_shopping_cart" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/cardview_controls"
+            app:cardCornerRadius="@dimen/cardview_default_corner_radius"
+            app:cardElevation="@dimen/cardview_default_elevation"
+            app:cardBackgroundColor="@color/gray"
+            >
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:paddingHorizontal="16dp"
+            >
+            <ImageView
+                android:id="@+id/IMV_FRGProductsList_Search"
+                android:layout_width="@dimen/ImagenViewIconSize"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:contentDescription="@string/search"
+                android:focusable="true"
+                android:padding="@dimen/ImagenViewIcon_padding"
+                android:src="@drawable/ic_search"
+                />
+            <EditText
+                android:id="@+id/ETX_FRGProductsList_Search"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:hint="@string/search"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textSize="@dimen/FRGEditTextSize"
+                />
+
+        </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/BTN_FRGProductsList_AddProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/FRGProductsList_BTNAddProduct"
+        android:textSize="@dimen/FRGButtonTextSize"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="16sp"
+        />
+</LinearLayout>
