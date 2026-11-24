@@ -22,4 +22,5 @@
     <string name="labelProductsListFragment">Lista de Productos</string>
     <string name="category">Categoria</string>
     <string name="price">Precio</string>
+    <string name="addCart">Adicionado al carrito:</string>
 </resources>

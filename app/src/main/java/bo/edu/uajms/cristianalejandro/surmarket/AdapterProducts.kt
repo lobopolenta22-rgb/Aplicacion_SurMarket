@@ -46,4 +46,7 @@ class AdapterProducts(
     override fun getItemCount(): Int {
         return productsList.size
     }
+    fun notifyChanged(){
+        notifyDataSetChanged()
+    }
 }

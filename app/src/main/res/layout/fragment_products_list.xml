@@ -24,7 +24,7 @@
             android:gravity="center"
             android:text="@string/FRGProductsList_Title"
             android:textSize="@dimen/FRGTitleTextSize"
-            android:textStyle="bold" />
+            android:textStyle="bold"/>
 
         <ImageView
             android:id="@+id/IMV_FRGProductsList_ShoppingCart"
@@ -34,7 +34,7 @@
             android:contentDescription="@string/Shopping_Cart"
             android:focusable="true"
             android:padding="@dimen/ImagenViewIcon_padding"
-            android:src="@drawable/ic_shopping_cart" />
+            android:src="@drawable/ic_shopping_cart"/>
 
     </LinearLayout>
 
@@ -102,5 +102,5 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        tools:listitem="@layout/item_productslist" />
+        tools:listitem="@layout/item_productslist"/>
 </LinearLayout>
