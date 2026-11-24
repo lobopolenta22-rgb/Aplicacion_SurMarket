@@ -17,4 +17,6 @@
     <string name="Shopping_Cart">Carrito de Compras</string>
     <string name="search">Buscar producto</string>
     <string name="FRGProductsList_BTNAddProduct">Añadir Producto</string>
+    <string name="product">Producto</string>
+    <string name="ITProductList_BTNBuyProduct">COMPRAR</string>
 </resources>

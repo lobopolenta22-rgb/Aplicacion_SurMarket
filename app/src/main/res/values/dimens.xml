@@ -11,4 +11,12 @@
     <dimen name="ImagenViewIcon_padding">4dp</dimen>
     <dimen name="cardview_controls">48dp</dimen>
     <dimen name="cardview_default_corner_radius">15dp</dimen>
+    <dimen name="cardview_default_margin_botton">12dp</dimen>
+    <dimen name="cardview_item_corner_radius">8dp</dimen>
+    <dimen name="cardview_default_padding">12dp</dimen>
+    <dimen name="cardview_image">110dp</dimen>
+    <dimen name="item_marginStart">12dp</dimen>
+    <dimen name="ITTextViewTextSize">12sp</dimen>
+    <dimen name="ITMarginBotton">4dp</dimen>
+    <dimen name="button_padding_horizontal">16dp</dimen>
 </resources>
