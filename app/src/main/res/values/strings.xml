@@ -19,4 +19,5 @@
     <string name="FRGProductsList_BTNAddProduct">Añadir Producto</string>
     <string name="product">Producto</string>
     <string name="ITProductList_BTNBuyProduct">COMPRAR</string>
+    <string name="labelProductsListFragment">Lista de Productos</string>
 </resources>
