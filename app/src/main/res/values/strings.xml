@@ -52,4 +52,5 @@
     <string name="labelCartFragment">Carrito</string>
     <string name="profile">Perfil</string>
     <string name="cart">Carrito</string>
+    <string name="inicio">Inicio</string>
 </resources>
