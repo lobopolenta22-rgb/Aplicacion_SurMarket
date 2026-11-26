@@ -47,4 +47,9 @@
     <string name="labelAddProductFragment">Añadir Producto</string>
 
     <string name="addProduct">Añadir Nuevo Producto</string>
+    <string name="home">Inicio</string>
+    <string name="labelProfileFragment">Perfil</string>
+    <string name="labelCartFragment">Carrito</string>
+    <string name="profile">Perfil</string>
+    <string name="cart">Carrito</string>
 </resources>

@@ -3,36 +3,44 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph.xml"
-    app:startDestination="@id/LoginFragment"
-    >
+    app:startDestination="@id/LoginFragment">
+
     <fragment
         android:id="@+id/LoginFragment"
         android:name="bo.edu.uajms.cristianalejandro.surmarket.FragmentLogin"
         android:label="@string/labelLoginFragment"
-        tools:layout="@layout/fragment_login"
-        >
+        tools:layout="@layout/fragment_login">
         <action
             android:id="@+id/action_login_to_products_list"
-            app:destination="@+id/productsListFragment"
-            />
-
+            app:destination="@id/productsListFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/productsListFragment"
         android:name="bo.edu.uajms.cristianalejandro.surmarket.FragmentProductsList"
         android:label="@string/labelProductsListFragment"
-        tools:layout="@layout/fragment_products_list"
-        >
+        tools:layout="@layout/fragment_products_list">
         <action
-        android:id="@+id/addProductFragment"
-        app:destination="@+id/productsListFragment"
-        />
+            android:id="@+id/action_products_list_to_add_product"
+            app:destination="@id/addProductFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/addProductFragment"
         android:name="bo.edu.uajms.cristianalejandro.surmarket.FragmentAddProduct"
         android:label="@string/labelAddProductFragment"
-        tools:layout="@layout/fragment_add_product"
-        >
-    </fragment>
+        tools:layout="@layout/fragment_add_product" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="bo.edu.uajms.cristianalejandro.surmarket.FragmentProfile"
+        android:label="@string/labelProfileFragment"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/CFragment"
+        android:name="bo.edu.uajms.cristianalejandro.surmarket.FragmentCart"
+        android:label="@string/labelCartFragment"
+        tools:layout="@layout/fragment_cart" />
+
 </navigation>
