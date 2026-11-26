@@ -6,9 +6,9 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@drawable/_cono_minimalista_de_carrito_sur_market"
+        android:icon="@drawable/icono_minimalista_sur_market"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/_cono_minimalista_de_carrito_sur_market"
+        android:roundIcon="@drawable/icono_minimalista_sur_market"
         android:supportsRtl="true"
         android:theme="@style/Theme.SurMarket" >
         <activity android:name=".MainActivity"

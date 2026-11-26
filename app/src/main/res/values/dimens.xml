@@ -20,4 +20,9 @@
     <dimen name="ITMarginBotton">4dp</dimen>
     <dimen name="button_padding_horizontal">16dp</dimen>
     <dimen name="FRGMarginTop">90dp</dimen>
+    <dimen name="fragment_padding">10dp</dimen>
+    <dimen name="cardview_image_height">200dp</dimen>
+    <dimen name="cardview_default_corner_radius2">24dp</dimen>
+    <dimen name="textView_multiline_Height">90dp</dimen>
+    <dimen name="chip_margin_end">8dp</dimen>
 </resources>
